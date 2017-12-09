@@ -23,6 +23,9 @@ module.exports = {
       dod: {
         type: Sequelize.DATE
       },
+      fictional: {
+        type: Sequelize.BOOLEAN
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
