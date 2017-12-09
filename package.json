@@ -1,0 +1,38 @@
+{
+  "name": "fruitbud.io",
+  "version": "1.0.0",
+  "description": "Welcome to the side project!",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3001 node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabWild/fruitbud.io.git"
+  },
+  "author": "FabWild",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabWild/fruitbud.io/issues"
+  },
+  "homepage": "https://github.com/FabWild/fruitbud.io#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-session": "^1.15.6",
+    "morgan": "~1.9.0",
+    "nodemailer": "^4.4.0",
+    "password-generator": "^2.2.0",
+    "pug": "2.0.0-beta11",
+    "request": "^2.83.0",
+    "sequelize": "^4.22.11",
+    "serve-favicon": "~2.4.5",
+    "session-file-store": "^1.1.2",
+    "uuid": "^3.1.0",
+    "validator": "^9.1.1"
+  }
+}
