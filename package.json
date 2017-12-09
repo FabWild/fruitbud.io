@@ -25,6 +25,8 @@
     "express": "~4.15.5",
     "express-session": "^1.15.6",
     "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
     "nodemailer": "^4.4.0",
     "password-generator": "^2.2.0",
     "pug": "2.0.0-beta11",
@@ -32,6 +34,7 @@
     "sequelize": "^4.22.11",
     "serve-favicon": "~2.4.5",
     "session-file-store": "^1.1.2",
+    "sqlite3": "^3.1.13",
     "uuid": "^3.1.0",
     "validator": "^9.1.1"
   }
