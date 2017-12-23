@@ -40,6 +40,8 @@ var Indexes = {
       models.Quote.findAll({})
       .then(results => {
         // console.log(results[0].dataValues.text);
+        req.query.all ?
+        data = results :
         data = results[randrank(results.length)].dataValues.text;
         console.log(data);
         res.send(data);
