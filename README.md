@@ -12,7 +12,7 @@ L'idée de base est de proposer des fiches d'information sur des fruits et autre
 * SQlite dev, MySQL production
 * Sequelize
 
-## Feature 1 - The Wire quotes
+## Feature 1 - The Wire quotes - port 3001
 * clone, git checkout **devf**, npm install, npm start
 * API :
   * get **/addWire** to add the quotes from wikiquote in the local database
